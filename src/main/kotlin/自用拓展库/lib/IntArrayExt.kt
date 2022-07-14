@@ -27,8 +27,8 @@ fun IntArray.swap(a: Int, b: Int) {
     set(a, get(b))
     set(b, temp)
 
-    //这种方法不需要开辟额外的空间就能交换a和b
-//    set(a, get(a) xor  get(b))
-//    set(b, get(a) xor  get(b))
-//    set(a, get(a) xor  get(b))
+    //这种方法不需要开辟额外的空间就能交换a和b，但前提是这两个数在内存空间上不会有重合
+//    set(a, get(a) xor get(b))
+//    set(b, get(a) xor get(b))
+//    set(a, get(a) xor get(b))
 }
