@@ -11,6 +11,8 @@ import 自用拓展库.lib.testIntArray
  *
  * 选择排序
  * 每遍历一次，就将数组中最小的数提前，然后在剩下的数里再次进行这种操作
+ *
+ * O(N²)
  */
 fun main() {
     testIntArray(*randomIntArray(n = 100, range = 0..50)) {

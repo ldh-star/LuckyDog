@@ -8,6 +8,8 @@ import 自用拓展库.lib.testIntArray
  * @author ldh
  * 时间: 2022/7/14 10:19
  * 邮箱: 2637614077@qq.com
+ *
+ * O(N²)
  */
 fun main() {
     testIntArray { bubbleSort(it) }
