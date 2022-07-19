@@ -32,3 +32,5 @@ fun IntArray.swap(a: Int, b: Int) {
 //    set(b, get(a) xor get(b))
 //    set(a, get(a) xor get(b))
 }
+
+fun intArrayOf(vararg num: Int) = num.toList().toIntArray()
